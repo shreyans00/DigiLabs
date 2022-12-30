@@ -606,7 +606,8 @@ nav ul li{
     width:90%;
   }
   .article1 div{
-    width:100%;
+    width:90%;
+    margin-inline:1em;
   }
   .article1 h1{
     font-size: 3rem;
@@ -614,7 +615,8 @@ nav ul li{
   }
   .article1 img{
     margin-block-start: 0rem;
-    width:100%;
+    margin-inline:1.3rem;
+    width:90%;
   }
   .article2{
     margin-block-start: 0rem;
@@ -629,9 +631,8 @@ nav ul li{
     margin-block:1rem;
   }
   .article2 img{
-    margin-inline-end: 8rem;
+    margin-inline: 0rem;
     margin-block-start: 10rem;
-    object-fit: contain;
   }
   .article2 p{
     line-height: 1.5rem;
@@ -647,7 +648,8 @@ nav ul li{
     margin-block-start: -3rem;
   }
   #arrow{
-    margin-inline-start:5.5rem;
+    padding-inline:5rem;
+    margin-inline:0rem;
   }
 }
 
